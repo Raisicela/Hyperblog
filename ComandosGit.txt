@@ -1,0 +1,8 @@
+git init ‘arranca el repositorio’ 
+git add ‘Arranca el archivo’ 
+git commit ‘Envía los últimos datos del archivo a la base de datos del sistema de control de versiones’ 
+git status ‘Status de la base de datos’ 
+git show ‘muestra el historial de los cambios realizados, cuando y quien los hizo’ 
+git log ‘historia entera del archivo’ 
+git push ‘envia a repositorio remoto’ 
+git pull ‘trae de un repositorio remoto’ 
