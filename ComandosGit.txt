@@ -7,3 +7,5 @@ git log ‘historia entera del archivo’
 git push ‘envia a repositorio remoto’ 
 git pull ‘trae de un repositorio remoto’ 
 git config --global --edit 'edita las configuraciones de nombre de usuario, email, etc'
+
+Vim es un editor de texto de Git.
