@@ -1,16 +1,24 @@
 git init ‘arranca el repositorio’ 
+git clone url 'crea una copia del master al directorio de trabajo y crea base de datos de todos los cambios historicos'
 git add ‘Arranca el archivo’ 
 git commit ‘Envía los últimos datos del archivo a la base de datos del sistema de control de versiones’ 
+git push ‘envia informacion de repositorio local a repositorio remoto’ 
+git pull ‘trae de un repositorio remoto’ 
 git status ‘Status de la base de datos’ 
 git show ‘muestra el historial de los cambios realizados, cuando y quien los hizo’ 
 git log ‘historia entera del archivo’ 
-git push ‘envia a repositorio remoto’ 
-git pull ‘trae de un repositorio remoto’ 
+git fetch 'trae a un repositorio local pero no se copia en los archivos'
+git merge 'fusiona ultima version del repositorio local con la version actual '
 git config --global --edit 'edita las configuraciones de nombre de usuario, email, etc'
 git checkout (codigo) 'permite revisar cualquier commit'
-git reset (codigo) --hard 'borra el commit y staying'
+git checkout master 'visualiza ultimo commit'
+git reset (codigo) --hard 'borra el commit y staging'
 git reset (codigo) --soft 'borra el commit y deja el staying'
 git diff (codigo1 codigo2) diferencia entre commits
+git reset HEAD 'permite revertir los cambios que ya habías preparado para subir'
+git rm 'ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones'
+git revert 'deshace cambios de confirmaciones anteriores de forma segura sin modificar la historia del repositorio'
+
 git diff diferencias entre el directorio actual y el stayingß 
 Vim es un editor de texto de Git.
 i 'para insetar en Vim'
