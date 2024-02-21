@@ -7,5 +7,12 @@ git log ‘historia entera del archivo’
 git push ‘envia a repositorio remoto’ 
 git pull ‘trae de un repositorio remoto’ 
 git config --global --edit 'edita las configuraciones de nombre de usuario, email, etc'
-
+git checkout (codigo) 'permite revisar cualquier commit'
+git reset (codigo) --hard 'borra el commit y staying'
+git reset (codigo) --soft 'borra el commit y deja el staying'
+git diff (codigo1 codigo2) diferencia entre commits
+git diff diferencias entre el directorio actual y el stayingß 
 Vim es un editor de texto de Git.
+i 'para insetar en Vim'
+:wq 'para escribir y salir'
+En la carpeta master colocar checkout
