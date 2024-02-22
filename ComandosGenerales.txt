@@ -13,4 +13,6 @@ cat 'muestra rapidamente el contenido de un archivo'
 history 'muestra historia de comandos'
 rm 'borra archivos'
 rm -rf 'borra carpetas'
+ssh keygen -t (algoritmo que vamos a usar) resa -b (qué tan compleja es la llaves) -C (a qué coreo pertenece) ""
+
 Comando --help 'opciones de comandos'
