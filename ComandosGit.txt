@@ -22,6 +22,7 @@ git branch (nombre de rama) 'crea una nueva rama'
 git branch -m 'cambia de nombre a la rama'
 git diff diferencias entre el directorio actual y el stayingß 
 git remote add origin main 'agrega un origen remoto de los archivos'
+git pull origin main --allow-unrelated/histories 'ayuda a ejecutar el merge sin conflictos entre archivos remotos y locales'
 
 Vim es un editor de texto de Git.
 i 'para insetar en Vim'
