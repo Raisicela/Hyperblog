@@ -11,4 +11,6 @@
 * Creación de Git Page
 * Uso de .gitignore
 * Incluye ejemplos en mac.
+* Disponible para todas la edades.
+
 
