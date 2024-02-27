@@ -20,10 +20,22 @@ git rm 'ayuda a eliminar archivos de Git sin eliminar su historial del sistema d
 git revert 'deshace cambios de confirmaciones anteriores de forma segura sin modificar la historia del repositorio'
 git branch (nombre de rama) 'crea una nueva rama'
 git branch -m 'cambia de nombre a la rama'
-git diff diferencias entre el directorio actual y el stayingß 
+git diff 'diferencias entre el directorio actual y el staging'
 git remote add origin main 'agrega un origen remoto de los archivos'
+git remote -v
+git remote add upstream (url) 'trae datos del repositorio remoto a la rama main local y crea rama upstream'
+git rebase 'realiza merge de ramas pero borra una de las ramas y no se toma en cuenta en el historial'
+git stash 'se guardan los cambios en un lugar temporal'
+git stash list 'muestra la lista de cambios guardados temporalmente'
+git stash pop 'para retomar cambios temporales guardados'
+git stash branch 'crea una rama con cambios guardados temporalmente'
+git stash drop 'eliminar cambios temporales'
+git clean --dry-run 'simula lo que se va a borrar sin borrarlos'
+git clean -f 'borra archivos'
+git pull upstream main
 git pull origin main --allow-unrelated/histories 'ayuda a ejecutar el merge sin conflictos entre archivos remotos y locales'
 git log --all --graph --decorate --oneline 'crea un arbol de commits'
+vi blogpost.html
 
 Vim es un editor de texto de Git.
 i 'para insetar en Vim'
