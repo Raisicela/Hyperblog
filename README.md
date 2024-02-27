@@ -10,4 +10,5 @@
 * Trucos locos del profesor
 * Creación de Git Page
 * Uso de .gitignore
+* Incluye ejemplos en mac.
 
